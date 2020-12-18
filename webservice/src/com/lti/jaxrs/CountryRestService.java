@@ -21,7 +21,7 @@ public class CountryRestService {
 	@Produces(MediaType.APPLICATION_JSON)
 	public List getCountries() {
 		List<Country> listOfCountries = new ArrayList<>();
-//		listOfCountries=this.createCountryList();
+		listOfCountries1=this.createCountryList();
 //		return listOfCountries;
 		
 		//service layer
