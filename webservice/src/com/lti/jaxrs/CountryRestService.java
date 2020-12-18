@@ -46,17 +46,17 @@ public class CountryRestService {
 		
 	}
 	//without service layer in serv layer done in countryservice class
-//	public List createCountryList() {
-//		Country c1 = new Country(1,"India");
-//		Country c2 = new Country(2,"uk");
-//		Country c3 = new Country(3,"us");
-//		
-//		List<Country> listOfCountries = new ArrayList<>();
-//		listOfCountries.add(c1);
-//		listOfCountries.add(c2);
-//		listOfCountries.add(c3);
-//		return listOfCountries;
-//	}
+	public List createCountryList() {
+		Country c1 = new Country(1,"India");
+		Country c2 = new Country(2,"uk");
+		Country c3 = new Country(3,"us");
+		
+		List<Country> listOfCountries = new ArrayList<>();
+		listOfCountries.add(c1);
+		listOfCountries.add(c2);
+		listOfCountries.add(c3);
+		return listOfCountries;
+	}
 	
 	@POST
 	@Produces(MediaType.APPLICATION_JSON)
