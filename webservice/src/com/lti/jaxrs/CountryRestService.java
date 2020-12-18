@@ -57,6 +57,9 @@ public class CountryRestService {
 //		listOfCountries.add(c3);
 //		return listOfCountries;
 //	}
+	void useless(){
+		int a=0;
+	}
 	
 	@POST
 	@Produces(MediaType.APPLICATION_JSON)
